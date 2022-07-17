@@ -1,0 +1,34 @@
+
+/*=============================================
+=            Foundation - colors              =
+=============================================*/
+
+/*=============================================
+=            Global text colors               =
+=============================================*/
+
+$body-text-color: var(--dsatc-body-text-color, $dark) !default;
+$body-bg-color: var(--dsatc-body-bg-color, $white) !default;
+
+/*=============================================
+=                 Buttons                     =
+=============================================*/
+
+$btn-primary-color: var(--dsatc-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--dsatc-btn-primary-bg, $green) !default;
+$btn-primary-bg-hover: var(--dsatc-btn-primary-bg-hover, $green-light) !default;
+
+/*=============================================
+=                 Forms                       =
+=============================================*/
+
+$form-border-color: var(--dsatc-form-border-color, $white-dark) !default;
+$form-bg-color: var(--dsatc-form-bg-color, $white) !default;
+$form-bg-option-selected: var(--dsatc-form-bg-option-selected, $green) !default;
+$form-color-option-selected: var(--dsatc-form-color-option-selected, $white) !default;
+$form-bg-color-hover: var(--dsatc-form-bg-color-hover, $white-dark) !default;
+$form-color: var(--dsatc-form-color, $dark) !default;
+$form-bg: var(--dsatc-form-bg, $white) !default;
+$form-error-color: var(--dsatc-form-error-color, $red) !default;
+$form-error-border: var(--dsatc-form-error-border, $red) !default;
+$form-border-focus-color: var(--dsatc-form-border-focus-color, $green) !default;
