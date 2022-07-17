@@ -5,13 +5,14 @@
   "license": "MIT",
   "scripts": {
     "lint": "stylelint './**/*.scss'",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "prepare": "cd .. && husky install scss/.husky"
   },
   "dependencies": {
     "normalize-scss": "^7.0.1"
   },
   "devDependencies": {
-    "husky": "^4.2.5",
+    "husky": "^8.0.1",
     "lint-staged": "^10.2.11",
     "prettier": "^2.7.1",
     "stylelint": "^14.9.1",
